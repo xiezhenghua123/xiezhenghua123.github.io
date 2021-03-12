@@ -558,7 +558,8 @@ header .go-back i {
 }
 
 .bg-cover:before,
-.bg-cover:after {
+
+/*.bg-cover:after {
     position: absolute;
     z-index: 1;
     width: 100%;
@@ -567,12 +568,13 @@ header .go-back i {
     left: 0;
     top: 0;
     content: "";
-}
+}*/
 
 .bg-cover .container {
     position: relative;
-    color: #fff;
+    color: #000;
     z-index: 2;
+    opacity: 0.7;
 }
 
 .bg-cover .title {
@@ -586,7 +588,7 @@ header .go-back i {
     font-weight: 300;
     font-size: 1.25rem;
     line-height: 1.4em;
-    color: #eee;
+    color: #000;
 }
 
 .bg-cover .post-title {
@@ -595,7 +597,7 @@ header .go-back i {
     font-weight: 400;
 }
 
-@-webkit-keyframes rainbow {
+*/ @-webkit-keyframes rainbow {
     0%,
     100% {
         background: rgba(156, 39, 176, 0.75);
